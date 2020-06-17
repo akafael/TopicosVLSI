@@ -1,0 +1,55 @@
+\hypertarget{classFullAdd_1_1behavioural}{}\doxysection{behavioural Architecture Reference}
+\label{classFullAdd_1_1behavioural}\index{behavioural@{behavioural}}
+
+
+R\+OM Based 1-\/bit Full Adder.  
+
+
+\doxysubsection*{Processes}
+ \begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classFullAdd_1_1behavioural_a7362444b590247fac759044885763bc1}{Output}}{\bfseries  ( {\bfseries {\bfseries \mbox{\hyperlink{classFullAdd_af9ed3b7199b4ea3c9ec36241cbcd1814}{Clk}}} \textcolor{vhdlchar}{ }} )}
+\begin{DoxyCompactList}\small\item\em This process separates the result from the L\+UT into the proper outputs. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Signals}
+ \begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classFullAdd_1_1behavioural_a1ddd1a464dac0201f00547b256ebe7b9}{addr}} {\bfseries \textcolor{keywordtype}{std\+\_\+logic\+\_\+vector}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{2} \textcolor{vhdlchar}{ }\textcolor{keywordflow}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} 
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+R\+OM Based 1-\/bit Full Adder. 
+
+\begin{DoxyVerb}    This 1-bit Full Adder uses a ROM to implement a LUT to ensure 
+    consistent delay between Sum Output and Carry Output.
+
+    This is considered a relatively fast architecture with consistent
+    delay for all outputs, but it uses a lot of area.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classFullAdd_1_1behavioural_a7362444b590247fac759044885763bc1}\label{classFullAdd_1_1behavioural_a7362444b590247fac759044885763bc1}} 
+\index{behavioural@{behavioural}!Output@{Output}}
+\index{Output@{Output}!behavioural@{behavioural}}
+\doxysubsubsection{\texorpdfstring{Output()}{Output()}}
+{\footnotesize\ttfamily  {\bfseries \textcolor{vhdlchar}{ }} Output(\begin{DoxyParamCaption}\item[{}]{{\bfseries {\bfseries \mbox{\hyperlink{classFullAdd_af9ed3b7199b4ea3c9ec36241cbcd1814}{Clk}}} \textcolor{vhdlchar}{ }} {\em } }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [Process]}}
+
+
+
+This process separates the result from the L\+UT into the proper outputs. 
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classFullAdd_1_1behavioural_a1ddd1a464dac0201f00547b256ebe7b9}\label{classFullAdd_1_1behavioural_a1ddd1a464dac0201f00547b256ebe7b9}} 
+\index{behavioural@{behavioural}!addr@{addr}}
+\index{addr@{addr}!behavioural@{behavioural}}
+\doxysubsubsection{\texorpdfstring{addr}{addr}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classFullAdd_1_1behavioural_a1ddd1a464dac0201f00547b256ebe7b9}{addr}} {\bfseries \textcolor{keywordtype}{std\+\_\+logic\+\_\+vector}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{2} \textcolor{vhdlchar}{ }\textcolor{keywordflow}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} \hspace{0.3cm}{\ttfamily [Signal]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{adder_8vhd}{adder.\+vhd}}\end{DoxyCompactItemize}
